@@ -1,0 +1,6 @@
+2014-04-01 16:21:50.714 HelloCordova[11214:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-01 16:21:50.731 HelloCordova[11214:70b] Unlimited access to network resources
+2014-04-01 16:21:51.660 HelloCordova[11214:70b] [CDVTimer][statusbar] 84.715962ms
+2014-04-01 16:21:51.660 HelloCordova[11214:70b] [CDVTimer][TotalPluginStartup] 85.135996ms
+2014-04-01 16:21:51.733 HelloCordova[11214:70b] Resetting plugins due to page load.
+2014-04-01 16:21:52.139 HelloCordova[11214:70b] Finished load of: file:///Users/ziax/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/615053A4-32E6-4AB6-9374-A6BEC42E508F/HelloCordova.app/www/index.html#/app/browse
