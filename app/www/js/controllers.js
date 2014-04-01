@@ -1,5 +1,17 @@
 angular.module('starter.controllers', [])
 
+.controller('LoginCtrl', function($scope, $state) {
+  $scope.user = {};
+  $scope.signIn = function (user) {
+    // console.log(user, $scope.user, $scope);
+    if (user.email === 'ziaxdk@gmail.com' && user.password === '12') {
+      console.log('ojk');
+    }
+  };
+
+
+})
+
 .controller('AppCtrl', function($scope) {
 })
 
@@ -15,4 +27,4 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-})
+});
