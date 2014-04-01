@@ -4,8 +4,8 @@ angular.module('starter.controllers', [])
   $scope.user = {};
   $scope.signIn = function (user) {
     // console.log(user, $scope.user, $scope);
-    if (user.email === 'ziaxdk@gmail.com' && user.password === '12') {
-      console.log('ojk');
+    if (user.email === '1' && user.password === '2') {
+      $state.go('app.search');
     }
   };
 
