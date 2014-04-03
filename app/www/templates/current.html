@@ -3,9 +3,12 @@
     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
   </ion-nav-buttons>
   <ion-content class="has-header">
-    <ion-list>
-      <ion-item ng-repeat="item in items" item="item">{{item.count}} {{item.text}}</ion-item>
-    </ion-list>
+    <ul class="list">
+      <li class="item" ng-repeat="item in items">{{item.count}} {{item.text}}</li>
+    </ul>
+    <!-- <ion-list>
+      <ion-item ng-repeat="item in items" item="item" ng-click="tap()" ng-swipe="show()">{{item.count}} {{item.text}}</ion-item>
+    </ion-list> -->
 
   </ion-content>
 </ion-view>

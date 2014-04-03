@@ -12,8 +12,14 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('CurrentCtrl', function($scope) {
+.controller('CurrentCtrl', function($scope, $ionicGesture) {
     $scope.items = [{ count: 2, text: 'l mælk' }, { count: 6, text: 'stk æg' }];
+    console.log($ionicGesture);
+
+    $scope.tap = function() {
+      console.log('tap');
+    }
+
   })
 
 .controller('AppCtrl', function($scope) {
