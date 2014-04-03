@@ -5,26 +5,16 @@ angular.module('starter.controllers', [])
   $scope.signIn = function (user) {
     // console.log(user, $scope.user, $scope);
     if (user.email === '1' && user.password === '2') {
-      $state.go('app.search');
+      $state.go('app.current');
     }
   };
 
 
 })
 
+.controller('CurrentCtrl', function($scope) {
+    $scope.items = [{ count: 2, text: 'l mælk' }, { count: 6, text: 'stk æg' }];
+  })
+
 .controller('AppCtrl', function($scope) {
-})
-
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
-
-.controller('PlaylistCtrl', function($scope, $stateParams) {
 });

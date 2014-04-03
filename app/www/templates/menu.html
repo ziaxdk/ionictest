@@ -1,8 +1,8 @@
 <ion-side-menus>
 
-  <ion-pane ion-side-menu-content>
+  <ion-pane ion-side-menu-content drag-content="false">
     <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button class="button-clear"><i class="icon ion-chevron-left"></i> Tilbage</ion-nav-back-button>
+      <!-- <ion-nav-back-button class="button-clear"><i class="icon ion-chevron-left"></i> Tilbage</ion-nav-back-button> -->
     </ion-nav-bar>
     <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
   </ion-pane>
@@ -13,14 +13,17 @@
     </header>
     <ion-content class="has-header">
       <ion-list>
-        <ion-item nav-clear menu-close href="#/app/search">
-          Search
+        <ion-item nav-clear menu-close href="#/app/current">
+          Aktuel
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/browse">
-          Browse
+        <ion-item nav-clear menu-close href="#/app/history">
+          Tidligere
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/playlists">
-          Playlists
+        <ion-item nav-clear menu-close href="#/app/settings">
+          Indstillinger
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/signout">
+          Log ud
         </ion-item>
       </ion-list>
     </ion-content>
